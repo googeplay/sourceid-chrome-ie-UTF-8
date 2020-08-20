@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Chrome</title>
+	<link rel="stylesheet" type="text/css" href="google.css">
+
+	<!--[if IE]>
+	<script
+	src="http://html5.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![end =if]-->
+</head> 
+<style>
+	/* Fake google css */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: small arial, sans-serif; 
+font-size: 13px;	
+}
+
+#container {
+	width: 580px;
+	margin: 140px auto;
+	text-align: center;
+
+
+}
+
+h1#logo {
+	width: 272px;
+	height: 92px;
+	background: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+
+}
+
+
+input[type="text"] {
+	width: 566px;
+	padding: 7px;
+	margin: 25px 0 18px;
+	border: solid 1px #ccc;
+	font-size: 16px;
+
+}
+
+input[type="text"]:hover {
+	border-color:#aaa;
+}
+
+input[type="submit"] {
+	background:#eee;
+	color:#333;
+	border: solid 1px #ddd;
+	padding:5px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin: 0 5px;
+
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+
+}
+
+small {
+	display: block;
+	margin: 10px 0 0 0; 
+}
+
+a:link, a:visited {
+	color: dodgerblue;
+}
+
+nav#header {
+	text-align: right;
+	padding: 20px;
+}
+
+
+nav#header ul li {
+	display: inline;
+}
+
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+	color: #555;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+	text-decoration: underline;
+
+}
+
+footer {
+	background: #eee;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+}
+
+footer nav {
+	padding: 20px;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul {
+	float: left;
+}
+
+footer nav ul.right-links {
+	float: right;
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+</style>
+<body>
+
+	<nav id="header">
+		<ul>
+			<li><a href="">+You</a></li>
+			<li><a href="">Gmail</a></li>
+			<li><a href="https://googeplay.github.io/play.google.com/Googleplay.html">Google Play</a></li>
+			<li><a href="">Images</a></li>
+			<li><a href="">Apps</a></li>
+			<li><a href="">Sign in</a></li>
+		</ul>
+	</nav>
+	
+	<div id="container">
+		<h1 id="logo">Google</h1>
+		<form>
+			<input type="text" name="">
+			<a class="btn btn-primary" href="google search.html" role="button">Google Search</a>
+			<a href="google search.html">I'm Feeling Lucky</a>
+		</form>
+</div><!-- end container -->
+	<footer >
+		<nav class="clearfix">
+			<ul>
+				<li><a href="">Advertising</a></li>
+				<li><a href="">Business</a></li>
+				<li><a href="">About</a></li>
+				</ul>
+				<ul class="right-links">
+				<li><a href="">Privacy</a></li>
+				<li><a href="">Terms</a></li>
+				<li><a href="">Settings</a></li>
+				<li><a href="">Use Google.com</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+</body>
+</html>
